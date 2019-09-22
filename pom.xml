@@ -4,29 +4,23 @@
 	<groupId>com.testdouble</groupId>
 	<artifactId>test-training</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.3</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>test-training</name>
         <url>https://github.com/testdouble/contributing-tests/wiki</url>
 	<modules>
           <module>example</module>
-          <module>greeting</module>
-          <module>unusual-spending-vendor</module>
-          <module>unusual-spending</module>
-          <module>example-cucumber</module>
           <module>bank-ocr</module>
-          <module>gilded-rose</module>
-          <module>game-of-life</module>
 	</modules>
 
 
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus-snapshots</id>
-	    <url>http://ec2-52-66-206-124.ap-south-1.compute.amazonaws.com:8081/repository/maven2_snapshots/</url>
+	    <url>http://ec2-35-154-131-136.ap-south-1.compute.amazonaws.com:8081/repository/snapshots/</url>
 	  </snapshotRepository>
 	  <repository>
 	    <id>nexus-releases</id>
-	    <url>http://ec2-52-66-206-124.ap-south-1.compute.amazonaws.com:8081/repository/maven2_releases/</url>
+	    <url>http://ec2-35-154-131-136.ap-south-1.compute.amazonaws.com:8081/repository/releases/</url>
 	  </repository>
 	</distributionManagement>
 

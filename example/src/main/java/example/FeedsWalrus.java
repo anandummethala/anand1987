@@ -3,6 +3,7 @@ package example;
 import example.values.CannedWalrusFood;
 import example.values.Walrus;
 
+
 public class FeedsWalrus {
 
 	OpensCan opensCan = new OpensCan();
